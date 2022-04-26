@@ -47,14 +47,6 @@ nav ul a {
 	cursor: pointer;
 }
 
-/* .fa-plus-circle {
-	margin-right: 0.8em;
-} */
-
-/* .body-div1, .body-div2 {
-	margin-left: 150px;
-	margin-right: 150px;
-} */
 
 .body-div1 {
 	margin-top: 25px;
@@ -91,11 +83,14 @@ nav ul a {
 #image{
 	margin-top: 30px;
 }
-.body-div2 {
+.card-container {
 	display: flex;
-	flex-direction: row ;
-	/* justify-content: space-between; */
-	float: left;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.card-container > div{
+	margin: 10px;
+	padding: 10px;
 }
 
 #popup {
